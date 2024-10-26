@@ -1,0 +1,31 @@
+.home .título{
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-gigante);
+    margin-right: 260px;
+    margin-top: 20px;
+}
+
+.home .subtítulo {
+    font-family: var( --fonte-principal);
+    font-size: var(--fonte-grande);
+    padding: 30px 0;
+    margin-right: 500px;
+}
+
+.home .home-contato {
+    margin-top: 30px;
+}
+
+.home .home-contato a {
+    background-color: var(--cor-branca-70);
+    color: var(--principal-escuro);
+    font-family: var( --fonte-principal);
+    font-size: var(--fonte-normal);
+    font-weight: 700;
+    padding: 15px;
+}
+
+.home .home-contato a:hover {
+    background-color: var( --principal);
+    color: var(--cor-branca);
+}

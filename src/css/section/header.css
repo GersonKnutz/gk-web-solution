@@ -1,21 +1,24 @@
 .header {
+    background-color: var(--preto-bg);
     padding: 30px 15px;
-}
-
-.header img {
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    line-height: 55px;
-    text-align: center;
 }
 
 .header nav ul {
     display: flex;
 }
 
+.header .logo {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-extra-grande);
+    color: var(--cor-branca);
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
 .header nav li a {
-    text-transform: capitalize;
     color: var(--cor-branca);
     font-size: 2rem;
     font-weight: 500;
@@ -27,9 +30,32 @@
 }
 
 .header nav li a:hover {
-    background-color: var(--cor-primaria);
-    color: var(--cor-branca);
+    color: var(--principal);
 }
+
+.header .contato {
+    color: var(--cor-branca);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 0.2s;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+nav .contato a {
+    background-color: var(--principal);
+    padding: 10px 20px;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header nav .contato a:hover {
+    background-color: var(--cor-branca);
+    color: var(--preto-bg);
+}
+
 
 .header .menu {
     display: none;
@@ -116,7 +142,7 @@
 
     .header nav ul {
         display: none;
-        background-color: var(--cor-fundo-escuro);
+        background-color: var(--tema-principal-escuro);
         padding: 20px;
     }
 

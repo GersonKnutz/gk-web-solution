@@ -1,21 +1,32 @@
 :root {
-    --cor-primaria: #43bd8e;
-    --cor-secundaria: #FD6C22;    
-    --cor-branca: #fff;
-    --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
-    --cor-fundo-cinza-claro: #353535;    
-  }
-    
-  :root {
-    --fonte-primaria: 'Poppins', sans serif;
-    --fonte-secundaria: 'Raleway', sans serif;
-    --fonte-gigante: 4.5rem;
-    --fonte-extra-grande: 3rem;
-    --fonte-grande: 2.4rem;
-    --fonte-normal: 1.6rem;
-  }
+  --body-bg: #fafdff;
+  --tema-principal-escuro: #6c96ff;
+  --principal-escuro: #1f2546;
+  --cor-branca: white;
+  --principal: #2959d3;
+  --opacidade-preto-regular: #0f132780;
+  --texto: #130f26;
+  --principal-leve: #e0f1ff;
+  --principal-escuro-50: #1f254680;
+  --cor-branca-50: #ffffff80;
+  --preto-bg: #181c37;
+  --cor-branca-40: #fff6;
+  --cor-branca-70: #ffffffb3;
+}
   
-  :root {
-    --mobile-padding: 30px;
-  }
+:root {
+  --fonte-primaria: 'Poppins', sans serif;
+  --fonte-secundaria: 'Raleway', sans serif;
+  --fonte-terciaria:  'Montserrat', sans serif;
+  --fonte-principal: 'Oxanium', sans-serif;
+  --fonte-gigante: 4.5rem;
+  --fonte-extra-grande: 3rem;
+  --fonte-grande: 2.4rem;
+  --fonte-normal: 1.6rem;
+}
+
+:root {
+  --mobile-padding: 30px;
+}
+
+  
